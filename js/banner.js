@@ -1,0 +1,1 @@
+console.log("Welcome To Banner.."),document.querySelectorAll(".c-banner__close").forEach((function(e){e.addEventListener("click",(function(e){var n=e.target.parentNode;n.classList.add("collapse"),n.addEventListener("transitionend",(function(e){e.target==this&&this.remove()})),console.log("Hide")}))}));
